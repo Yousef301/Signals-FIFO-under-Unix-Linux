@@ -22,11 +22,12 @@ no argument is provided, assume 5 rounds.
 8. On termination, the parent declares the winner of the competition, kills all its child
 processes, removes any allocated resource and exits.
 What you should do:
-  • Write the code for the parent and the children. The parent’s code should be written
-in the file parent.c while the children’s code should be written in the file child.c.
-  • Check that your program is bug-free. Use the gdb debugger in case you are having
-problems during writing the code (and most probably you will :-). In such a case,
-compile your code using the -g option of the gcc.
-  • Use graphics elements from opengl library in order to best illustrate the application.
-Nothing fancy, just simple and elegant elements are enough.
-  • Insert delays between rounds (e.g. few seconds).
+
+    • Write the code for the parent and the children. The parent’s code should be written
+    in the file parent.c while the children’s code should be written in the file child.c.
+    • Check that your program is bug-free. Use the gdb debugger in case you are having
+    problems during writing the code (and most probably you will :-). In such a case,
+    compile your code using the -g option of the gcc.
+    • Use graphics elements from opengl library in order to best illustrate the application.
+    Nothing fancy, just simple and elegant elements are enough.
+    • Insert delays between rounds (e.g. few seconds).
