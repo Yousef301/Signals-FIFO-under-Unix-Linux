@@ -1,5 +1,4 @@
 # Signals & FIFO under Unix/Linux
-The competition
 We would like to create a multi-processing application based on the signals and pipes/fifos
 facilities under Linux. The idea is to have a parent process fork 5 children processes. The
 first 2 processes are partners that belong to team 1 while processes 3 & 4 are partners that
